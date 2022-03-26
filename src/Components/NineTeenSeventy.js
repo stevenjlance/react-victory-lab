@@ -10,6 +10,7 @@ function NineTeenSeventy() {
       <h1>1970 population</h1>
       <VictoryPie
         colorScale="cool"
+        innerRadius={75}
         data={[
           { x: data1970.data[0].borough, y: data1970.data[0].population },
           { x: data1970.data[1].borough, y: data1970.data[1].population },
